@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/memory.png" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <section class="memoryGame">
+      <button id="start">Start playing</button>
+      <h3 id="h3-text">Score: <span id="scoring"></span></h3>
+      <div id="timeContainer">
+        <div id="timeSetSection">
+          <input type="number" id="timeSet">
+          <button type="submit" id="submitBtn">Set Time</button>
+        </div>
+        <h3 id="leftTimeh3">Left Time: <span id="leftTime">0</span></h3>
+      </div>
+      <div id="grid"></div>
+    </section>
+  </body>
+</html>
